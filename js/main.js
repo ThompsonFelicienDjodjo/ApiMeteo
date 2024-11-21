@@ -14,8 +14,11 @@ fetch(url).then((response) =>
         //On télécharche les icones pour accompagner les élements
 
         document.querySelector('#Ville').innerHTML =data.name;
-        document.querySelector('#temp').innerHTML =data.main.temp + '°';
-        document.querySelector('#Humidité').innerHTML =data.main.humidity + '%';
-        document.querySelector('#vent').innerHTML =data.wind.speed + 'km/h';
+        document.querySelector('#temp').innerHTML =
+            "<i class='fa-solid fa-temperature-low'></i>" + data.main.temp + '°';
+        document.querySelector('#Humidité').innerHTML =
+            "<i class='fa-solid fa-droplet'></i>" + data.main.humidity + '%';
+        document.querySelector('#vent').innerHTML =
+            "<i class='fa-solid fa-wind'></i>" + data.wind.speed + 'km/h';
     })
 );
