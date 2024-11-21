@@ -1,0 +1,40 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/477110708/fr/photo/pr%C3%A9visions-m%C3%A9t%C3%A9o.jpg?s=612x612&w=0&k=20&c=P58Ypf0mPpop6T4OIkDNpctoSAOomyFU0_q6kxsN_dU=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.box-container {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#Ville {
+    background-color: dodgerblue;
+}
+
+#temp {
+    background-color: powderblue;
+}
+
+#Humidité {
+    background-color: aqua;
+}
+
+#vent {
+    background-color: cornflowerblue;
+}
