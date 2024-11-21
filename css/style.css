@@ -24,17 +24,17 @@ body {
 }
 
 #Ville {
-    background-color: dodgerblue;
+    background-color: dimgray;
 }
 
 #temp {
-    background-color: powderblue;
+    background-color: lightslategrey;
 }
 
 #Humidité {
-    background-color: aqua;
+    background-color: slategrey;
 }
 
 #vent {
-    background-color: cornflowerblue;
+    background-color: darkgray;
 }
